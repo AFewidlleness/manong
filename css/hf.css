@@ -1,4 +1,11 @@
 @charset "utf-8";
+.header {
+  width: 1920px;
+  min-width: 1200px;
+  height: 750px;
+  position: relative;
+}
+
 /* 导航栏 */
 .dhl_nav {
   width: 100%;
@@ -128,9 +135,97 @@
 }
 /* 导航栏 */
 
+/* lbt1 */
+
+.banner {
+  position: relative;
+  overflow: auto;
+  text-align: center;
+}
+
+.banner li {
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+}
+
+#b03 {
+  width: 1920px;
+  min-width: 1200px;
+}
+
+#b03 .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+
+#b03 .dots li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 50px 18px 18px;
+  text-indent: -999em;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+
+#b03 .dots li.active {
+  background: #4d8bfb;
+}
+
+.banner_btn {
+  position: absolute;
+  top: 170px;
+  left: 530px;
+}
+
+.banner_btn img {
+  margin: auto;
+}
+
+.banner_btn h1 {
+  font-size: 80px;
+  font-weight: normal;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  font-family: "Adobe 黑体 Std";
+  color: #ffffff;
+}
+
+.banner_btn a {
+  width: 350px;
+  height: 80px;
+  margin: auto;
+  line-height: 80px;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Adobe 黑体 Std";
+  color: #ffffff;
+  background-color: #4d8bfb;
+  transition: all .3s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+}
+
+.banner_btn a:hover {
+  background-color: #42577f;
+}
+
+/* lbt1 */
+
 /* 尾部 */
 .footer {
-  width: 100%;
+  min-width: 1200px;
+  width: 1920px;
   height: 72px;
   background-color: #e4e4e4;
 }
