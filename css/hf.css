@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* 导航栏 */
+.dhl_nav {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.nr_center {
+  width: 1200px;
+  height: 60px;
+  margin: 0px auto;
+  
+}
+
+#nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav li {
+  float: left;
+  display: block;
+  background: none;
+  position: relative;
+  z-index: 999;
+}
+
+#nav li a {
+  width: 106px;
+  margin-left: 68px;
+  font-family: "宋体";
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  zoom: 1;
+}
+
+.er_hv::after {
+  content: "";
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  width: 0;
+  height: 4px;
+  background-color: #4d8bfb;
+  opacity: 0;
+  -webkit-transition: 0.35s all cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: 0.35s all cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.35s all cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.er_hv:hover::after {
+  left: 0;
+  opacity: 1;
+  width: 100%;
+}
+
+.er_hve::after {
+  content: "";
+  position: absolute;
+  top: 94%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #4d8bfb;
+  opacity: 1;
+}
+
+#nav .er_hve {
+  width: 50px;
+  margin-left: 48px;
+}
+
+#nav i {
+  display: block;
+  width: 40px;
+  height: 30px;
+  margin-top: 15px;
+  background: url(../image/logo.png) no-repeat;
+}
+
+#nav ul {
+  position: absolute;
+  right: -12px;
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+}
+
+#nav ul li {
+  width: 130px;
+  clear: both;
+}
+
+#nav ul a {
+  float: right;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  background: url(../image/erbj.png) no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 2px 12px;
+  text-transform: uppercase;
+  font-family: "宋体";
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+#nav .er_top {
+  margin-top: 0;
+}
+/* 导航栏 */
+
+/* 尾部 */
+.footer {
+  width: 100%;
+  height: 72px;
+  background-color: #e4e4e4;
+}
+
+.footer p {
+  text-align: center;
+  line-height: 72px;
+  font-family: "宋体";
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+/* 尾部 */
