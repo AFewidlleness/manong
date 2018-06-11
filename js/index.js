@@ -1,10 +1,10 @@
 //下拉菜单
 $(document).ready(function() {
 	$('#nav li').hover(function() {
-		$('ul', this).slideDown(200);
+		$('ul', this).stop().slideDown(200);
 		$(this).children('a:first').addClass("hov");
 	}, function() {
-		$('ul', this).slideUp(100);
+		$('ul', this).stop().slideUp(100);
 		$(this).children('a:first').removeClass("hov");
 	});
 });

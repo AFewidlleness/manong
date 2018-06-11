@@ -4,7 +4,7 @@
 .main_tel {
   width: 1200px;
   height: 128px;
-  margin: 0 auto;
+	display: inline-block;
 }
 
 .main_tel span {
@@ -54,13 +54,15 @@
 /* services */
 
 .services {
-  width: 1920px;
+  /*width: 1920px;*/
   height: 420px;
-  min-width: 1200px;
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   background-color: #fffefe;
 }
 
-.services_content {
+.all_content {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -123,19 +125,14 @@
 /* analysis */
 
 .analysis {
-  width: 1920px;
+  /*width: 1920px;*/
   height: 890px;
-  min-width: 1200px;
-  
-  display: inline-block;
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   background-color: #e4e4e480;
 }
 
-.analysis_content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
 
 .analysis_bt {
   width: 100%;
@@ -216,10 +213,11 @@
 /* case */
 
 .case {
-  width: 1920px;
-  min-width: 1200px;
+  /*width: 1920px;*/
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   height: 598px;
-  display: inline-block;
   background: url(../image/lb2-bj.jpg) no-repeat;
 }
 
@@ -235,15 +233,12 @@
 /* development */
 
 .development {
-  width: 1920px;
-  min-width: 1200px;
+  /*width: 1920px;*/
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   height: 582px;
   background-color: #fffefe;
-}
-
-.development_content {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .development_bt {
@@ -309,18 +304,15 @@
 /* development */
 
 .about {
-  width: 1920px;
-  min-width: 1200px;
+  /*width: 1920px;*/
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   height: 700px;
   position: relative;
   background: url(../image/footer-bj.jpg) no-repeat;
 }
 
-.about_content {
-  width: 1200px;
-  height: 610px;
-  margin: 0 auto;
-}
 
 .about_c_left {
   width: 600px;

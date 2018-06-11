@@ -1,7 +1,9 @@
 @charset "utf-8";
 .header {
-  width: 1920px;
-  min-width: 1200px;
+  /*width: 1920px;*/
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
   height: 750px;
   position: relative;
 }
@@ -19,6 +21,7 @@
 
 .nr_center {
   width: 1200px;
+  /*min-width: 1300px;*/
   height: 60px;
   margin: 0px auto;
   
@@ -152,7 +155,7 @@
 }
 
 #b03 {
-  width: 1920px;
+  /*width: 1920px;*/
   min-width: 1200px;
 }
 
@@ -224,8 +227,10 @@
 
 /* 尾部 */
 .footer {
-  min-width: 1200px;
-  width: 1920px;
+  /*min-width: 1200px;*/
+  min-width: 1300px;
+ 
+  /*width: 1920px;*/
   height: 72px;
   background-color: #e4e4e4;
 }
