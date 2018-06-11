@@ -3,7 +3,7 @@
 
 .main_tel {
   width: 1200px;
-  height: 128px;
+  height: 140px;
 	display: inline-block;
 }
 
@@ -26,14 +26,20 @@
 }
 
 .main_wire {
-  width: 544px;
+  width: 45%;
   height: 2px;
-  display: inline-block;
+	margin-top: 15px;
+ float: left;
   background: #666666;
-  margin: auto;
+ display: block;
   margin-bottom: 6px;
 }
-
+.main_tel_titel{
+	padding: 0 10px;
+ float: left;
+ display: block;
+	
+}
 /* center title */
 
 .case .main_h_c h3 {
@@ -45,20 +51,14 @@
 }
 
 .case .main_span_b {
-  width: 545px;
-  height: 2px;
-  display: inline-block;
   background: #eeeeee;
 }
 
 /* services */
 
 .services {
-  /*width: 1920px;*/
   height: 420px;
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
   background-color: #fffefe;
 }
 
@@ -125,9 +125,7 @@
 /* analysis */
 
 .analysis {
-  /*width: 1920px;*/
   height: 890px;
-  /*min-width: 1200px;*/
   min-width: 1300px;
  
   background-color: #e4e4e480;
@@ -213,10 +211,7 @@
 /* case */
 
 .case {
-  /*width: 1920px;*/
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
   height: 598px;
   background: url(../image/lb2-bj.jpg) no-repeat;
 }
@@ -233,16 +228,9 @@
 /* development */
 
 .development {
-  /*width: 1920px;*/
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
   height: 582px;
   background-color: #fffefe;
-}
-
-.development_bt {
-  height: 452px;
 }
 
 .development_tl {
@@ -304,10 +292,7 @@
 /* development */
 
 .about {
-  /*width: 1920px;*/
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
   height: 700px;
   position: relative;
   background: url(../image/footer-bj.jpg) no-repeat;
@@ -419,6 +404,7 @@
 }
 
 .about_footer {
+  min-width: 1300px;
   width: 100%;
   height: 90px;
   position: absolute;

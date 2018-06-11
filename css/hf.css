@@ -1,9 +1,6 @@
 @charset "utf-8";
 .header {
-  /*width: 1920px;*/
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
   height: 750px;
   position: relative;
 }
@@ -21,7 +18,6 @@
 
 .nr_center {
   width: 1200px;
-  /*min-width: 1300px;*/
   height: 60px;
   margin: 0px auto;
   
@@ -139,8 +135,7 @@
 /* 导航栏 */
 
 /* lbt1 */
-
-.banner {
+/*.banner {
   position: relative;
   overflow: auto;
   text-align: center;
@@ -155,7 +150,7 @@
 }
 
 #b03 {
-  /*width: 1920px;*/
+
   min-width: 1200px;
 }
 
@@ -221,16 +216,99 @@
 
 .banner_btn a:hover {
   background-color: #42577f;
-}
+}*/
 
+.slider {
+
+  /*overflow: auto;
+  text-align: center;*/
+      height: 340px;
+      margin: 100px auto;
+      position: relative;
+    }
+.slider img{
+      width: 100%;
+      height: 100%;
+    }
+    .slider>ul>li {
+      position: absolute;
+      display: none;
+    }
+
+    .slider>ul>li:first-child {
+      display: block;
+    }
+
+
+    .arrow {
+      display: none;
+    }
+
+    .slider:hover .arrow {
+      display: block;
+    }
+
+    .arrow-left,
+    .arrow-right {
+      font-family: "SimSun", "宋体";
+      width: 30px;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 50%;
+      margin-top: -30px;
+      cursor: pointer;
+      text-align: center;
+      line-height: 60px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    .arrow-left:hover,
+    .arrow-right:hover {
+      background-color: rgba(0, 0, 0, .5);
+    }
+
+    .arrow-left {
+      left: 0;
+    }
+
+    .arrow-right {
+      right: 0;
+    }
+
+    .slider .round {
+      position: absolute;
+      left: 50%;
+      bottom: 18px;
+      margin-left: -128px;
+    }
+
+    .roundLiHover {
+      background-color: #fff;
+    }
+
+    .round>ul>li {
+      width: 16px;
+      height: 16px;
+      float: left;
+      display: block;
+      margin-left: 12px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      transition: background .2s ease;
+      cursor: pointer;
+    }
+
+    .round>ul>li:hover {
+      background-color: #fff;
+    }
 /* lbt1 */
 
 /* 尾部 */
 .footer {
-  /*min-width: 1200px;*/
   min-width: 1300px;
- 
-  /*width: 1920px;*/
   height: 72px;
   background-color: #e4e4e4;
 }
