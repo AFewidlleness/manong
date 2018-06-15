@@ -33,7 +33,7 @@ $(function () {
 	})
 
 	function yingChan(a) {
-		$(".slider>ul>li").eq(a).stop().fadeIn().siblings("li").stop().fadeOut();
+		$(".slider>ul>li").eq(a).stop().fadeIn(800).siblings("li").stop().fadeOut(800);
 		$(".round>ul>li").eq(a).addClass("roundLiHover").siblings("li").removeClass("roundLiHover");
 	}
 
